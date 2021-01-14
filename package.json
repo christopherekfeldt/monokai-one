@@ -1,0 +1,23 @@
+{
+    "name": "monokai-one",
+    "displayName": "Monokai One Dark Theme",
+    "description": "Monokai One Dark Theme for Azure Data Studio",
+    "publisher": "Christopher Ekfeldt",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai One Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai One Dark-color-theme.json"
+            }
+        ]
+    }
+}
